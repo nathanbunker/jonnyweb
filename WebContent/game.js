@@ -22,7 +22,7 @@ function draw() {
 				increment = -increment;
 			}
 			rectA += increment;
-			rectB - +increment;
+			rectB -= increment;
 		}
 		setTimeout(draw, 200)
 	}
